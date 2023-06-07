@@ -116,6 +116,7 @@ endif
 		--with-logdir=/var/log/$(package) \
 		--with-large-files \
 		--with-udpfromto \
+		--with-modules=rlm_kafka \
 		--without-rlm_eap_tnc \
 		--with-rlm_sql_postgresql_lib_dir=`pg_config --libdir` \
 		--with-rlm_sql_postgresql_include_dir=`pg_config --includedir` \
